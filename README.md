@@ -14,15 +14,15 @@ Requirements (tested with):
 
 ### To run the project:
 
-*Downloading/clone the codes 
-*Put the dataset in the data folder. To use the dataset in the paper you can download tweets based on their tweet ids available with their classes in “./data/“ and remove the hashtags at the end of each tweets. The final dataset should have the following format: id,text,emotion with one record (tweet) per line.
-*The embedding file should be placed in “./vectorss/”
-*Use the configuration.cfg to set the name of dataset and embedding file, maximun numer in the vocabulary (max_features), maximum length of terms in the text (maxlen), bactch size and number of epochs to run the training. 
-*Then run the handler.py: $python3 handler.py.
+* Downloading/clone the codes 
+* Put the dataset in the data folder. To use the dataset in the paper you can download tweets based on their tweet ids available with their classes in “./data/“ and remove the hashtags at the end of each tweets. The final dataset should have the following format: id,text,emotion with one record (tweet) per line.
+* The embedding file should be placed in “./vectorss/”
+* Use the configuration.cfg to set the name of dataset and embedding file, maximun numer in the vocabulary (max_features), maximum length of terms in the text (maxlen), bactch size and number of epochs to run the training. 
+* Then run the handler.py: $python3 handler.py.
 
 ## Testing the project:
 
-You can download the trained models used for our project at : https://drive.google.com/drive/u/0/folders/12JT7zFMR4t4YcpYEA04ra4FJl0WudUcc . To run, put the test file into the data forlder. test file should be one tweet per line with no additional columns. set the name of the file in test_configuration.cfg and run handler-test.py. 
+You can download the trained models used for our project at : https://drive.google.com/drive/u/0/folders/12JT7zFMR4t4YcpYEA04ra4FJl0WudUcc . To run, put the test file into the data folder. test file should be one tweet per line with no additional columns. set the name of the file in test_configuration.cfg and run handler-test.py. 
 
 ## Citation
 Please use the following citation when using the code or the paper:

@@ -14,11 +14,11 @@ Requirements (tested with):
 
 ### To run the project:
 
-1- Downloading/clone the codes 
-2- Put the dataset in the data folder. To use the dataset in the paper you can download tweets based on their tweet ids available with their classes in “./data/“ and remove the hashtags at the end of each tweets. The final dataset should have the following format: id,text,emotion with one record (tweet) per line.
-3-The embedding file should be placed in “./vectorss/”
-4-Use the configuration.cfg to set the name of dataset and embedding file, maximun numer in the vocabulary (max_features), maximum length of terms in the text (maxlen), bactch size and number of epochs to run the training. 
-5-Then run the handler.py: $python3 handler.py.
+*Downloading/clone the codes 
+*Put the dataset in the data folder. To use the dataset in the paper you can download tweets based on their tweet ids available with their classes in “./data/“ and remove the hashtags at the end of each tweets. The final dataset should have the following format: id,text,emotion with one record (tweet) per line.
+*The embedding file should be placed in “./vectorss/”
+*Use the configuration.cfg to set the name of dataset and embedding file, maximun numer in the vocabulary (max_features), maximum length of terms in the text (maxlen), bactch size and number of epochs to run the training. 
+*Then run the handler.py: $python3 handler.py.
 
 ## Testing the project:
 
